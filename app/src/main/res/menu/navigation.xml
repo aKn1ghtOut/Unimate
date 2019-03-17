@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_schedule"
+        android:icon="@drawable/ic_today"
+        android:title="Schedule" />
+
+    <item
+        android:id="@+id/shout_out"
+        android:icon="@drawable/ic_poll_black_24dp"
+        android:title="ShoutBox" />
+
+    <item
+        android:id="@+id/navigation_ft"
+        android:icon="@drawable/ic_directions_car_ft"
+        android:title="Fast Track" />
+
+    <item
+        android:id="@+id/navigation_att"
+        android:icon="@drawable/ic_att"
+        android:title="Attendance" />
+
+</menu>

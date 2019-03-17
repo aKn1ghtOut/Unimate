@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1e1e1e</color>
+    <color name="colorPrimaryDark">#000</color>
+    <color name="colorAccent">#1c3c70</color>
+
+
+    <color name="sky_blue">#3bd2e2</color>
+    <color name="sky_blue_dark">#2a9aa6</color>
+
+    <color name="redder">#f74434</color>
+    <color name="redder_dark">#9f2c21</color>
+
+    <color name="white">#DDFFFFFF</color>
+    <color name="menu_fg_1_col">#3bd2e2</color>
+    <color name="menu_fg_3_col">#87ea40</color>
+
+    <color name="yellow">#ffef62</color>
+    <color name="yellow_dark">#aba042</color>
+
+    <color name="green">#9afc5c</color>
+    <color name="green_dark">#5c9736</color>
+
+    <color name="grey">#dedede</color>
+    <color name="grey_dark">#8c8c8c</color>
+
+    <color name="ft_status_err">#f44336</color>
+    <color name="ft_status_err_darker">#b71c1c</color>
+
+    <color name="ft_status_cnf">#8BC34A</color>
+    <color name="ft_status_cnf_darker">#689F38</color>
+
+
+    <color name="overlay_bg">#000</color>
+
+    <color name="black_overlay">#66000000</color>
+</resources>
