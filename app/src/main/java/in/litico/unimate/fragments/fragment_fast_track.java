@@ -1,4 +1,4 @@
-package in.litico.unimate;
+package in.litico.unimate.fragments;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -16,8 +16,11 @@ import android.widget.Toast;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
+import in.litico.unimate.R;
+import in.litico.unimate.main;
 import in.litico.unimate.managers.manager_fast_track;
 import in.litico.unimate.views.general_card;
+import in.litico.unimate.views.ft_info_box;
 
 
 public class fragment_fast_track extends Fragment  implements manager_fast_track.fast_track_events {
@@ -195,7 +198,7 @@ public class fragment_fast_track extends Fragment  implements manager_fast_track
                                 public void onClick(View v) {
                                     int index = (int)v.getTag();
                                     try {
-                                        ((main) getActivity()).move_bottom_bar_up(new view_ft_info_box(getActivity(), past_info_arr.getJSONObject(index)));
+                                        ((main) getActivity()).move_bottom_bar_up(new ft_info_box(getActivity(), past_info_arr.getJSONObject(index)));
                                     }catch (Exception e)
                                     {
                                         e.printStackTrace();

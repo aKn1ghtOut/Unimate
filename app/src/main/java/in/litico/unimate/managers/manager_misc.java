@@ -66,7 +66,7 @@ public class manager_misc {
             "\tdh_arr.dh2.dinner.push(item);\n" +
             "});";
 
-    static void mess_menu(final Context context, final general_card dh1_card, final general_card dh2_card, final Activity act)
+    public static void mess_menu(final Context context, final general_card dh1_card, final general_card dh2_card, final Activity act)
     {
         try {
             /* An instance of this class will be registered as a JavaScript interface */
@@ -111,7 +111,7 @@ public class manager_misc {
         }
     }
 
-    static void inflate_mess_menu(Context context, JSONObject dh_json, final general_card dh1_card, final general_card dh2_card, final Activity act)
+    public static void inflate_mess_menu(Context context, JSONObject dh_json, final general_card dh1_card, final general_card dh2_card, final Activity act)
     {
         String text = "Breakfast:\n";
         try {

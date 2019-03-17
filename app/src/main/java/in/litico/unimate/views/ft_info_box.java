@@ -1,4 +1,4 @@
-package in.litico.unimate;
+package in.litico.unimate.views;
 
 import android.content.Context;
 import android.view.Gravity;
@@ -7,18 +7,20 @@ import android.widget.TextView;
 
 import org.json.JSONObject;
 
-class view_ft_info_box extends LinearLayout {
+import in.litico.unimate.R;
+
+public class ft_info_box extends LinearLayout {
 
     JSONObject details;
 
     TextView from, to, id, purpose, status, type, added_on;
 
-    view_ft_info_box(Context context)
+    ft_info_box(Context context)
     {
         super(context);
     }
 
-    view_ft_info_box(Context context, JSONObject ft_info)
+    public ft_info_box(Context context, JSONObject ft_info)
     {
         super(context);
 

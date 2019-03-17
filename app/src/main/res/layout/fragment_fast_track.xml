@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".fragment_fast_track">
+    tools:context=".fragments.fragment_fast_track">
 
     <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"

@@ -1,4 +1,4 @@
-package in.litico.unimate;
+package in.litico.unimate.fragments;
 
 import android.content.Context;
 import android.net.Uri;
@@ -7,6 +7,8 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import in.litico.unimate.R;
 
 public class fragment_shouter extends Fragment {
 

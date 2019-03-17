@@ -1,4 +1,4 @@
-package in.litico.unimate;
+package in.litico.unimate.fragments;
 
 import android.content.Context;
 import android.net.Uri;
@@ -11,6 +11,7 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 
+import in.litico.unimate.R;
 import in.litico.unimate.managers.manager_misc;
 import in.litico.unimate.views.general_card;
 import in.litico.unimate.views.schedule_class;

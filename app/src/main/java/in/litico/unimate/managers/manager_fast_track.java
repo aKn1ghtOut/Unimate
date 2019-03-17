@@ -47,7 +47,7 @@ public class manager_fast_track {
     private String COOKIE_VAL;
 
     private Object superListener;
-    manager_fast_track(Context cont, SharedPreferences spResource, Object super_ob)
+    public manager_fast_track(Context cont, SharedPreferences spResource, Object super_ob)
     {
         myAppTemp = cont;
         pref = spResource;

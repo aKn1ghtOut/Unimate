@@ -19,6 +19,9 @@ import android.widget.Toast;
 
 import org.json.JSONArray;
 
+import in.litico.unimate.fragments.fragment_fast_track;
+import in.litico.unimate.fragments.fragment_home;
+import in.litico.unimate.fragments.fragment_shouter;
 import in.litico.unimate.managers.manager_att;
 
 public class main extends AppCompatActivity implements
